@@ -75,7 +75,7 @@ with st.container(border=True):
 
     st.markdown(
     "<div style='font-size:1.1rem; font-weight:600;'>"
-    "Login über organisationseigenes Single-Sign-On"
+    "Login über organisationseigenes SSO"
     "</div>",
     unsafe_allow_html=True
     )
