@@ -22,7 +22,7 @@ with st.container(border=True):
 
     st.markdown(
         "<div style='color:#2b13c2; font-size:1.5rem; font-weight:600;'>"
-        "Konfigurieren Sie Ihr Karl AI Paket</div>",
+        "Konfigurieren Sie Ihr Karl AI</div>",
         unsafe_allow_html=True
     )
 
