@@ -4,17 +4,6 @@ from urllib.parse import quote
 
 st.set_page_config(page_title="Karl AI Konfigurator")
 
-st.markdown(
-    """
-    <style>
-    html, body, .stApp {
-        background-color: white !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.caption("Prototyp – Preise unverbindlich")
 
 st.markdown(
