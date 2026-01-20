@@ -164,18 +164,24 @@ st.markdown(
         left: 0;
         width: 100%;
         background: #2b13c2;
-        color: white;
         padding: 1.2rem 2rem;
         z-index: 1000;
-        font-size: 0.9rem;
 
         display: flex;
         align-items: center;
         gap: 1.5rem;
+
+        font-size: 0.9rem;
+    }
+
+    /* Farben NUR im Footer setzen */
+    .karl-footer,
+    .karl-footer span,
+    .karl-footer a {
+        color: #ffffff;
     }
 
     .karl-footer a {
-        color: white;
         text-decoration: none;
         margin: 0;
     }
@@ -191,4 +197,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
